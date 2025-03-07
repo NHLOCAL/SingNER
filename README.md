@@ -7,6 +7,9 @@
 ### **singer_ner_he**
 An NER (Named Entity Recognition) model designed to identify singer names from Hebrew song titles. This model has been meticulously trained to detect singer names within song titles, especially in cases where the singer's name is missing from the existing list or database. This capability significantly expands recognition accuracy, even in rare and challenging scenarios, ensuring that entities such as singer names are captured and processed accurately.
 
+Go to the full data system here:
+https://huggingface.co/datasets/NHLOCAL/SingNER
+
 ### **music_entity_clf**
 A classification model that categorizes text strings into music-related categories, including singer names, album names, song titles, or other content. This model works alongside the NER model, enhancing its precision by providing an additional layer of validation and verification. This classification is particularly useful for error reduction, ensuring that the NER model avoids misidentifications. Furthermore, this model aids in accurately identifying and sorting albums, a feature intended for future expansion.
 
